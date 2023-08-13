@@ -1,0 +1,86 @@
+html,body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Chakra Petch', sans-serif;
+font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bag{
+  background-image: url(./th.jpg);
+  height: 100vh;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+  background-size: cover;
+  width: 100vw;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+ 
+  background-color: none;
+  
+}
+input{
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  
+  top: 10px;
+  opacity: 0.4;
+  
+}
+button{
+  margin-left: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+  font-size: 23px;
+  border: none;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.con{
+  background:linear-gradient(180deg, rgba(0,0,0,0.2),rgb(140, 91, 167)120%);
+  box-shadow:  4px 5px 10px rgba(249, 252, 255, 0.3);
+  box-sizing: border-box;
+  height: 60vh;
+  width: 40vw;
+  margin-top: 10px;
+  /* opacity: 0.1; */
+  border-radius: 10px;
+}
+h1{
+  color: aliceblue;
+  font-size: 50px;
+  margin-top: 50px;
+}
+h2{
+  font-size: 40px;
+  color: aliceblue;
+  font-family:monospace;
+  padding-top: 30px;
+}
+.min{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  margin-top: 70px;
+  color: aliceblue;
+}
